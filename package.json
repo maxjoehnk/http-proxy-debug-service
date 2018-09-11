@@ -1,0 +1,13 @@
+{
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"build": "tsc index.ts",
+		"format": "prettier --write --single-quote index.ts"
+	},
+	"devDependencies": {
+		"@types/node": "^10.9.4",
+		"prettier": "^1.14.2",
+		"typescript": "^3.0.3"
+	}
+}
